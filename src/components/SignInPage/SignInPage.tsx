@@ -1,7 +1,7 @@
 import React from 'react'
-import { default as SignIn } from 'decentraland-dapps/dist/containers/SignInPage'
-import { Footer } from 'decentraland-dapps/dist/containers'
-import { Page } from 'decentraland-ui'
+import { default as SignIn } from 'dcl-dapps/dist/containers/SignInPage'
+import { Footer } from 'dcl-dapps/dist/containers'
+import { Page } from 'dcl-ui'
 
 import { Navbar } from '../Navbar'
 import './SignInPage.css'

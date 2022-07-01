@@ -1,6 +1,6 @@
 import React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { AvatarFace, Button, Header, Icon } from 'decentraland-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { AvatarFace, Button, Header, Icon } from 'dcl-ui'
 import { Props } from './AccountHeader.types'
 import './AccountHeader.css'
 import { config } from '../../../config'

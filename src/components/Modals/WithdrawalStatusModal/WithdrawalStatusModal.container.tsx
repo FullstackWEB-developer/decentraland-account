@@ -11,7 +11,7 @@ import {
   finishWithdrawalRequest,
   FINISH_WITHDRAWAL_REQUEST,
 } from '../../../modules/mana/actions'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 
 const mapState = (state: RootState) => ({
   isLoading: isLoadingType(getLoading(state), FINISH_WITHDRAWAL_REQUEST),

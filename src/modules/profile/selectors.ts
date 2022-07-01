@@ -1,5 +1,5 @@
-import { getData as getProfiles } from 'decentraland-dapps/dist/modules/profile/selectors'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getData as getProfiles } from 'dcl-dapps/dist/modules/profile/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { createSelector } from 'reselect'
 
 export const getProfileAvatar = createSelector(

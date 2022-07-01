@@ -1,4 +1,4 @@
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { connect } from 'react-redux'
 import { openModal } from '../../../../modules/modal/actions'
 import { RootState } from '../../../../modules/reducer'

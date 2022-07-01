@@ -1,7 +1,7 @@
 import React from 'react'
 import { Network } from '@dcl/schemas'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Button, Dropdown, Popup } from 'decentraland-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { Button, Dropdown, Popup } from 'dcl-ui'
 import { Props } from './AccountCardHeader.types'
 import './AccountCardHeader.css'
 

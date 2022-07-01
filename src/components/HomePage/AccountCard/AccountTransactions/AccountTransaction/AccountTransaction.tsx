@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { distanceInWordsToNow } from 'decentraland-dapps/dist/lib/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { distanceInWordsToNow } from 'dcl-dapps/dist/lib/utils'
 import {
   Deposit,
   Transfer,

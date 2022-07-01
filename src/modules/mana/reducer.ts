@@ -1,11 +1,11 @@
 import {
   loadingReducer,
   LoadingState,
-} from 'decentraland-dapps/dist/modules/loading/reducer'
+} from 'dcl-dapps/dist/modules/loading/reducer'
 import {
   FETCH_TRANSACTION_SUCCESS,
   FetchTransactionSuccessAction,
-} from 'decentraland-dapps/dist/modules/transaction/actions'
+} from 'dcl-dapps/dist/modules/transaction/actions'
 import {
   ApproveManaFailureAction,
   ApproveManaRequestAction,

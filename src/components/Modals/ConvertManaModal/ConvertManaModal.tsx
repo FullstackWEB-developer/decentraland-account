@@ -8,10 +8,10 @@ import {
   Loader,
   Radio,
   Section,
-} from 'decentraland-ui'
-import { NetworkButton, NetworkCheck } from 'decentraland-dapps/dist/containers'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
+} from 'dcl-ui'
+import { NetworkButton, NetworkCheck } from 'dcl-dapps/dist/containers'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
+import Modal from 'dcl-dapps/dist/containers/Modal'
 import { Network } from '@dcl/schemas'
 import { Props } from './ConvertManaModal.types'
 import { getEstimatedExitTransactionCost } from '../../../modules/mana/utils'

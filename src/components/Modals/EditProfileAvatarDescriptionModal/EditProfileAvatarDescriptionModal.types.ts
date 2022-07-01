@@ -1,10 +1,10 @@
 import { Dispatch } from 'redux'
 import { Avatar } from '@dcl/schemas'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import {
   ClearProfileErrorAction,
   SetProfileAvatarDescriptionRequestAction,
-} from 'decentraland-dapps/dist/modules/profile/actions'
+} from 'dcl-dapps/dist/modules/profile/actions'
 
 export type Props = Omit<ModalProps, 'onClose'> & {
   isLoading: boolean

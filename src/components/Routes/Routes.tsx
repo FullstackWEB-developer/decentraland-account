@@ -1,5 +1,5 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
-import Intercom from 'decentraland-dapps/dist/components/Intercom'
+import Intercom from 'dcl-dapps/dist/components/Intercom'
 
 import { locations } from '../../modules/locations'
 import { HomePage } from '../HomePage'

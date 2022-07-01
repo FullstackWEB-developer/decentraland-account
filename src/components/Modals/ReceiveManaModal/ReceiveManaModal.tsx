@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Close, Field } from 'decentraland-ui'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { Close, Field } from 'dcl-ui'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import Modal from 'dcl-dapps/dist/containers/Modal'
 import './ReceiveManaModal.css'
 
 const ReceiveManaModal = ({ name, onClose, metadata }: ModalProps) => {

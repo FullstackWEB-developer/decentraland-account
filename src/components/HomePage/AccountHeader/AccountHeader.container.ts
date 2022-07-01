@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { RootState } from '../../../modules/reducer'
 import { getProfileAvatar } from '../../../modules/profile/selectors'
-import { openModal } from 'decentraland-dapps/dist/modules/modal/actions'
+import { openModal } from 'dcl-dapps/dist/modules/modal/actions'
 import {
   MapStateProps,
   MapDispatchProps,

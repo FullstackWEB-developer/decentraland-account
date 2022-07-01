@@ -6,25 +6,25 @@ import {
   ConnectWalletSuccessAction,
   CONNECT_WALLET_SUCCESS,
   fetchWalletRequest,
-} from 'decentraland-dapps/dist/modules/wallet/actions'
-import { Provider } from 'decentraland-dapps/dist/modules/wallet/types'
-import { sendTransaction } from 'decentraland-dapps/dist/modules/wallet/utils'
+} from 'dcl-dapps/dist/modules/wallet/actions'
+import { Provider } from 'dcl-dapps/dist/modules/wallet/types'
+import { sendTransaction } from 'dcl-dapps/dist/modules/wallet/utils'
 import {
   fetchTransactionRequest,
   FetchTransactionSuccessAction,
   FETCH_TRANSACTION_SUCCESS,
-} from 'decentraland-dapps/dist/modules/transaction/actions'
+} from 'dcl-dapps/dist/modules/transaction/actions'
 import {
   getSigner,
   getNetworkProvider,
   getConnectedProvider,
   getChainIdByNetwork,
-} from 'decentraland-dapps/dist/lib/eth'
+} from 'dcl-dapps/dist/lib/eth'
 import {
   getAddress,
   getChainId,
   getNetworks,
-} from 'decentraland-dapps/dist/modules/wallet/selectors'
+} from 'dcl-dapps/dist/modules/wallet/selectors'
 import { ContractName, getContract } from 'decentraland-transactions'
 import { coingecko } from '../../lib/api/coingecko'
 import {

@@ -1,8 +1,8 @@
 import {
   ConnectWalletSuccessAction,
   CONNECT_WALLET_SUCCESS,
-} from 'decentraland-dapps/dist/modules/wallet/actions'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+} from 'dcl-dapps/dist/modules/wallet/actions'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { call, select, takeEvery } from 'redux-saga/effects'
 import { store } from '../store'
 import { OPEN_TRANSAK, OpenTransakAction } from './actions'

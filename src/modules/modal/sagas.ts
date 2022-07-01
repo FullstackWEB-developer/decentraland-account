@@ -1,5 +1,5 @@
 import { put, takeEvery } from '@redux-saga/core/effects'
-import { getOpenModals } from 'decentraland-dapps/dist/modules/modal/selectors'
+import { getOpenModals } from 'dcl-dapps/dist/modules/modal/selectors'
 import { IMPORT_WITHDRAWAL_SUCCESS } from '../mana/actions'
 
 import { history, store } from '../store'

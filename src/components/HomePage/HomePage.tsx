@@ -1,6 +1,6 @@
 import React from 'react'
 import { Network } from '@dcl/schemas'
-import { Page } from 'decentraland-ui'
+import { Page } from 'dcl-ui'
 import { DepositStatus, WithdrawalStatus } from '../../modules/mana/types'
 import DepositTooltip from '../Tooltips/DepositTooltip'
 import WithdrawalTooltip from '../Tooltips/WithdrawalTooltip'

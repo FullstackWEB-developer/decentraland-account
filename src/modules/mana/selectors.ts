@@ -1,11 +1,11 @@
-import { Transaction } from 'decentraland-dapps/dist/modules/transaction/types'
+import { Transaction } from 'dcl-dapps/dist/modules/transaction/types'
 import { createSelector } from 'reselect'
-import { getData as getTransactionsData } from 'decentraland-dapps/dist/modules/transaction/selectors'
-import { isPending } from 'decentraland-dapps/dist/modules/transaction/utils'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getData as getTransactionsData } from 'dcl-dapps/dist/modules/transaction/selectors'
+import { isPending } from 'dcl-dapps/dist/modules/transaction/utils'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { Network } from '@dcl/schemas'
-import { getChainConfiguration } from 'decentraland-dapps/dist/lib/chainConfiguration'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { getChainConfiguration } from 'dcl-dapps/dist/lib/chainConfiguration'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { RootState } from '../reducer'
 import {
   APPROVE_MANA_SUCCESS,

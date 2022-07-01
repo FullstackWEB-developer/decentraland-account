@@ -1,7 +1,7 @@
 import {
   EventName,
   GetPayload,
-} from 'decentraland-dapps/dist/modules/analytics/types'
+} from 'dcl-dapps/dist/modules/analytics/types'
 import {
   FETCH_TRANSACTION_FAILURE,
   FIX_REVERTED_TRANSACTION,
@@ -9,10 +9,10 @@ import {
   FetchTransactionFailureAction,
   FixRevertedTransactionAction,
   ReplaceTransactionSuccessAction,
-} from 'decentraland-dapps/dist/modules/transaction/actions'
-import { add } from 'decentraland-dapps/dist/modules/analytics/utils'
+} from 'dcl-dapps/dist/modules/transaction/actions'
+import { add } from 'dcl-dapps/dist/modules/analytics/utils'
 import { PayloadAction } from 'typesafe-actions'
-import { TransactionStatus } from 'decentraland-dapps/dist/modules/transaction/types'
+import { TransactionStatus } from 'dcl-dapps/dist/modules/transaction/types'
 import {
   DepositManaFailureAction,
   DepositManaSuccessAction,

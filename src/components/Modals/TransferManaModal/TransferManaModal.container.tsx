@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { getNetworks } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { getNetworks } from 'dcl-dapps/dist/modules/wallet/selectors'
 import {
   fetchManaPriceRequest,
   transferManaRequest,

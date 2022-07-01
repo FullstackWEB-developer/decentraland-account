@@ -3,9 +3,9 @@ import { call, select } from '@redux-saga/core/effects'
 import {
   getChainIdByNetwork,
   getNetworkProvider,
-} from 'decentraland-dapps/dist/lib/eth'
-import { fetchTransactionRequest } from 'decentraland-dapps/dist/modules/transaction/actions'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+} from 'dcl-dapps/dist/lib/eth'
+import { fetchTransactionRequest } from 'dcl-dapps/dist/modules/transaction/actions'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { expectSaga } from 'redux-saga-test-plan'
 import {
   importWithdrawalFailure,

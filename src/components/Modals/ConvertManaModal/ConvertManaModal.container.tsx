@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
-import { getNetworks } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getNetworks } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { Network } from '@dcl/schemas'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import {
   approveManaRequest,
   APPROVE_MANA_REQUEST,

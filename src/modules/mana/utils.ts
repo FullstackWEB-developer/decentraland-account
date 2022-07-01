@@ -1,21 +1,21 @@
 import { BigNumber, ethers } from 'ethers'
-import { TransactionStatus as TxStatus } from 'decentraland-dapps/dist/modules/transaction/types'
-import { graphql } from 'decentraland-dapps/dist/lib/graph'
+import { TransactionStatus as TxStatus } from 'dcl-dapps/dist/modules/transaction/types'
+import { graphql } from 'dcl-dapps/dist/lib/graph'
 import { Provider } from 'decentraland-transactions'
 import {
   hasFailed,
   hasSucceeded,
   isPending,
-} from 'decentraland-dapps/dist/modules/transaction/utils'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+} from 'dcl-dapps/dist/modules/transaction/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { call, select } from '@redux-saga/core/effects'
-import { getConnectedProvider } from 'decentraland-dapps/dist/lib/eth'
+import { getConnectedProvider } from 'dcl-dapps/dist/lib/eth'
 import {
   getAddress,
   getChainId,
-} from 'decentraland-dapps/dist/modules/wallet/selectors'
+} from 'dcl-dapps/dist/modules/wallet/selectors'
 import { ChainId, Network } from '@dcl/schemas'
-import { getChainConfiguration } from 'decentraland-dapps/dist/lib/chainConfiguration'
+import { getChainConfiguration } from 'dcl-dapps/dist/lib/chainConfiguration'
 import { MaticPOSClient } from '@maticnetwork/maticjs'
 import { getWithdrawals } from './selectors'
 import {

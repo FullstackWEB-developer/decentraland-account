@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { isConnected } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isConnected } from 'dcl-dapps/dist/modules/wallet/selectors'
 
 import { RootState } from '../../modules/reducer'
 import Routes from './Routes'
