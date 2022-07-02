@@ -27,9 +27,9 @@ const Routes = ({ isConnected }: Props) => {
         <Route exact path={locations.root()} component={HomePage} />
         <Redirect to={locations.root()} />
       </Switch>
-      {APP_ID ? (
+      {/* {APP_ID ? (
         <Intercom appId={APP_ID} settings={{ alignment: 'right' }} />
-      ) : null}
+      ) : null} */}
     </>
   )
 }
