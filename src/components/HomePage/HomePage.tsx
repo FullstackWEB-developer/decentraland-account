@@ -15,7 +15,7 @@ import './HomePage.css'
 const HomePage: React.FC<Props> = ({ withdrawals, deposits, transactionsByNetwork }) => {
 
   const ethereumTransactions = transactionsByNetwork[Network.ETHEREUM]
-  const maticTransactions = transactionsByNetwork[Network.MATIC]
+  // const maticTransactions = transactionsByNetwork[Network.MATIC]
 
   const isFirstWithdrawal =
     withdrawals.length === 1 &&
@@ -31,14 +31,14 @@ const HomePage: React.FC<Props> = ({ withdrawals, deposits, transactionsByNetwor
         <AccountCardContainer>
           <AccountCard
             network={Network.ETHEREUM}
-            title="Ethereum MANA"
+            title="SEED"
             transactions={ethereumTransactions}
           />
-          <AccountCard
+          {/* <AccountCard
             network={Network.MATIC}
             title="Polygon MANA"
             transactions={maticTransactions}
-          />
+          /> */}
         </AccountCardContainer>
         {isFirstDeposits ? (
           <DepositTooltip />

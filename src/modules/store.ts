@@ -5,7 +5,7 @@ import { createLogger } from 'redux-logger'
 import { createStorageMiddleware } from 'dcl-dapps/dist/modules/storage/middleware'
 import { storageReducerWrapper } from 'dcl-dapps/dist/modules/storage/reducer'
 import { createTransactionMiddleware } from 'dcl-dapps/dist/modules/transaction/middleware'
-import { createAnalyticsMiddleware } from 'dcl-dapps/dist/modules/analytics/middleware'
+// import { createAnalyticsMiddleware } from 'dcl-dapps/dist/modules/analytics/middleware'
 import { createRootReducer } from './reducer'
 import { rootSaga } from './sagas'
 import {
@@ -22,6 +22,7 @@ import { Env } from '@dcl/ui-env'
 
 export const history = require('history').createBrowserHistory()
 const rootReducer = storageReducerWrapper(createRootReducer(history))
+console.log('🚀 ~ file: store.ts ~ line 20 ~ config', config.getEnv())
 
 const sagasMiddleware = createSagasMiddleware()
 const loggerMiddleware = createLogger({
@@ -47,17 +48,17 @@ const { storageMiddleware, loadStorageMiddleware } = createStorageMiddleware({
   ],
   migrations,
 })
-const analyticsMiddleware = createAnalyticsMiddleware(
-  config.get('SEGMENT_API_KEY')
-)
+// const analyticsMiddleware = createAnalyticsMiddleware(
+//   config.get('SEGMENT_API_KEY')
+// )
 
 const middleware = applyMiddleware(
   sagasMiddleware,
   routerMiddleware(history),
   loggerMiddleware,
   transactionMiddleware,
-  storageMiddleware,
-  analyticsMiddleware
+  // analyticsMiddleware,
+  storageMiddleware
 )
 const enhancer = compose(middleware)
 const store = createStore(rootReducer, enhancer)
