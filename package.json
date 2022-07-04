@@ -28,7 +28,7 @@
     "case-sensitive-paths-webpack-plugin": "2.3.0",
     "connected-react-router": "^6.9.1",
     "css-loader": "4.3.0",
-    "dcl-dapps": "^0.1.3",
+    "dcl-dapps": "^0.1.4",
     "dcl-ui": "^0.1.10",
     "decentraland-transactions": "^1.22.2",
     "dotenv": "8.2.0",
