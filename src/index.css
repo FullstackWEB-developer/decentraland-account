@@ -1,5 +1,17 @@
+@font-face {
+  font-family: 'dogica';
+  src: url('./themes/font/dogica.ttf');
+}
+
+@font-face {
+  font-family: 'robot-crush';
+  src: url('./themes/font/robot-crush.ttf');
+}
+
 :root {
   --account-header-background: #b7a5ff;
+  --background: #150a24;
+  --background-secondary: #130919e5;
 }
 body {
   margin: 0;
