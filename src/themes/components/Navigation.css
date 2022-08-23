@@ -1,3 +1,9 @@
 .dcl.tabs a {
   color: var(--text);
 }
+.dcl.navbar .navbar-menu {
+  --text: #fff;
+}
+.dcl.account-wrapper {
+  --text: #fff;
+}
