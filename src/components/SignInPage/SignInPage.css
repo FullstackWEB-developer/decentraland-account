@@ -1,6 +1,9 @@
 .SignInPage {
   display: flex;
   justify-content: center;
+  --text: #fff;
+  --secondary: #242129;
+  color: var(--text);
 }
 
 .SignInPage .SignIn.center {
