@@ -29,7 +29,7 @@
     "connected-react-router": "^6.9.1",
     "css-loader": "4.3.0",
     "dcl-dapps": "^0.1.4",
-    "dcl-ui": "^0.1.10",
+    "dcl-ui": "^0.1.11",
     "decentraland-transactions": "^1.22.2",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
