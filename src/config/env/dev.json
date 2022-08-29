@@ -1,7 +1,7 @@
 {
   "CHAIN_ID": "3",
   "PEER_URL": "https://peer.decentraland.zone",
-  "BUILDER_URL": "https://builder-birdezkingdom.vercel.app",
+  "BUILDER_URL": "https://builder.birdezkingdom.com",
   "EXPLORER_URL": "https://play.decentraland.zone",
   "TRANSACTIONS_API_URL": "https://transactions-api.decentraland.io/v1",
   "TRANSAK_KEY": "273ac855-3472-40eb-8ee8-840e317f98e6",
